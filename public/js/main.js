@@ -18,7 +18,7 @@ var Loader = {
 };
 var Weather = {
 	init: function(){
-		this.getWeather('c9d417b22edc92cf','LB','Beirut');
+		this.getWeather('c9d417b22edc92cf','DE','Leipzig');
 	},
 	getWeather: function(key, country, city){
 		var that = this;
@@ -163,7 +163,6 @@ var Clock = {
   timeParts: function() {
 	var date = new Date(),
 		hour = date.getHours();
-		hour = 12;
 	
 	return {
 	  // Digital
